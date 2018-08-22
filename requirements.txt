@@ -22,7 +22,7 @@ apns-clerk==0.2.0
 validator.py==1.2.5
 aliyun-python-sdk-core==2.8.1
 aliyun-python-sdk-sts==3.0.0
-pycrypto==2.6.1
+pycrypto
 xinge_push==1.1.8.3
 requests==2.18.4
 elasticsearch==6.1.1
