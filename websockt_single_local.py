@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Author: Michael, Zhao
+
 import jwt
 import websocket
 import thread
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     req = urllib2.Request('http://' + hostname + '/mlogin/')
     req.add_header('Content-Type', 'application/json')
     data = {
-        "mobile": "+86101",
+        "mobile": "12313123",
         "password": jwt.encode({'password': '123456'}, '67ef9c880f8e33966d60d612d32562301f343c3b', algorithm='HS256')
     }
     response = urllib2.urlopen(req, json.dumps(data))
