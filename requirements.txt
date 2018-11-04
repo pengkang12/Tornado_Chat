@@ -24,7 +24,7 @@ aliyun-python-sdk-core==2.8.1
 aliyun-python-sdk-sts==3.0.0
 pycrypto
 xinge_push==1.1.8.3
-requests==2.18.4
+requests==2.20.0
 elasticsearch==6.1.1
 locustio==0.8.1
 jpush==3.2.9
